@@ -3,7 +3,7 @@
 
 Id_Cafe_MA="843"
 Id_Cafe_Bouton2T="841"
-IP_Domoticz="http://JB:Positif13@192.168.0.17:8080"
+IP_Domoticz="http://192.168.0.17:8080"
 
 echo "Préchauffage en cours..."
 sudo -u pi /home/pi/jarvis/jarvis.sh -s "Préchauffage en cours..."
