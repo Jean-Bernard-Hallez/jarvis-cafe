@@ -1,5 +1,5 @@
 #!/bin/bash
-# sudo -u pi /home/pi/jarvis/jarvis.sh -b
+
 
 Id_Cafe_MA="843"
 Id_Cafe_Bouton2T="841"
