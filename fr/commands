@@ -1,0 +1,11 @@
+*UN*TASSE*CAFE==say "Est-ce que la tasse de café est bien mise en place ?"
+>*OUI*==say "Ok je lance la procédure" && jv_pg_ct_cafe_1tasse
+>*NON*==say "Ok j'annule la procédure"
+
+*DE*TASSE*CAFE==say "Est-ce que les deux tasses de café sont bien mise en place ?"
+>*OUI*==say "Ok je lance la procédure" && jv_pg_ct_cafe_2tasses
+>*NON*==say "Ok j'annule la procédure"
+
+*BOL*CAFE==say "Est-ce que le bol de café est bien mit en place ?"
+>*OUI*==say "Ok je lance la procédure" && v_pg_ct_cafe_Bol
+>*NON*==say "Ok j'annule la procédure"
