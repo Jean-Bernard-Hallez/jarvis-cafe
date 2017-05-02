@@ -10,11 +10,13 @@ For multi-language plugin:
 - optionally write the Description / Usage sections in several languages
 -->
 ## Description
+(02/05/17 Correction suite modif du "plugins_installed")
 Avec Domoticz, il me prépare à la demande 1 ou 2 tasses de café ou 1 bol.
 J'ai rajouté le FIBARO System FGS222 dans ma machine philips senséo
 
-La programmation du dosage est sur 3 fichiers "bash" indépendant afin de les commander par des interrutpeurs virtuels dans domoticz par exemple.
-(je vous ai mis un dossier suplémentaire avec icone et photo pour vous faciliter cela avec DOMOTICZ)
+La programmation du dosage est sur 3 fichiers "bash" indépendant afin de les commander par un interrupteur virtuel, de domoticz par exemple.
+(dans ce cas rajouter dans votre inter dans "ACTION ON" --> script:///home/pi/jarvis/plugins/jarvis-cafe/cafe_1_tasse.sh etc...)
+(et "délais d'extinction" des boutons 5 secondes
 C'est à vous de le modifier en conséquence avec votre timing à vous.
 cafe_2_tasses.sh
 cafe_1_tasse.sh
